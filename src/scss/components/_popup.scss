@@ -1,0 +1,24 @@
+.popup {
+    &--title {
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+    }
+    &--hold {
+        font-size: 12px;
+        margin: 0px 0px 15px 0px;
+        color: rgb(156, 156, 156);
+    }
+    &--description {
+        font-size: 14px;
+        color: white;
+    }
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: black;
+}
+
+.leaflet-container a.leaflet-popup-close-button:hover {
+    color: red;
+}
